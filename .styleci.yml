@@ -1,2 +1,4 @@
 preset: laravel
 risky: true
+enabled:
+  - declare_strict_types
