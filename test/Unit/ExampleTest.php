@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Spawnia\Library\Test\Unit;
 
-use Spawnia\Library\Example;
 use PHPUnit\Framework;
+use Spawnia\Library\Example;
 
 final class ExampleTest extends Framework\TestCase
 {

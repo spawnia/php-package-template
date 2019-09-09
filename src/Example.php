@@ -7,7 +7,7 @@ namespace Spawnia\Library;
 class Example
 {
     /**
-     * @var string $name
+     * @var string
      */
     protected $name;
 
