@@ -20,7 +20,7 @@ jobs:
         run: php7.3 /usr/bin/composer validate --strict
 
       - name: "Install locked dependencies with composer"
-        run: php7.3 /usr/bin/composer install
+        run: php7.3 /usr/bin/composer install --no-interaction --no-progress --no-suggest
 
       - name: "Run localheinz/composer-normalize"
         run: php7.3 /usr/bin/composer normalize --dry-run
@@ -35,7 +35,7 @@ jobs:
         uses: actions/checkout@master
 
       - name: "Install locked dependencies with composer"
-        run: php7.3 /usr/bin/composer install
+        run: php7.3 /usr/bin/composer install --no-interaction --no-progress --no-suggest
 
       - name: "Run phpstan/phpstan"
         run: php7.3 vendor/bin/phpstan analyse --configuration=phpstan.neon
@@ -62,15 +62,15 @@ jobs:
 
       - name: "Install lowest dependencies with composer"
         if: matrix.dependencies == 'lowest'
-        run: ${{ matrix.php-binary }} /usr/bin/composer update --prefer-lowest
+        run: ${{ matrix.php-binary }} /usr/bin/composer update --prefer-lowest --no-interaction --no-progress --no-suggest
 
       - name: "Install locked dependencies with composer"
         if: matrix.dependencies == 'locked'
-        run: ${{ matrix.php-binary }} /usr/bin/composer install
+        run: ${{ matrix.php-binary }} /usr/bin/composer install --no-interaction --no-progress --no-suggest
 
       - name: "Install highest dependencies with composer"
         if: matrix.dependencies == 'highest'
-        run: ${{ matrix.php-binary }} /usr/bin/composer update
+        run: ${{ matrix.php-binary }} /usr/bin/composer update --no-interaction --no-progress --no-suggest
 
       - name: "Run unit tests with phpunit/phpunit"
         run: ${{ matrix.php-binary }} vendor/bin/phpunit
@@ -85,7 +85,7 @@ jobs:
         uses: actions/checkout@master
 
       - name: "Install locked dependencies with composer"
-        run: php7.3 /usr/bin/composer install
+        run: php7.3 /usr/bin/composer install --no-interaction --no-progress --no-suggest
 
       - name: "Dump Xdebug filter with phpunit/phpunit"
         run: php7.3 vendor/bin/phpunit --dump-xdebug-filter=.build/phpunit/xdebug-filter.php
@@ -108,7 +108,7 @@ jobs:
         uses: actions/checkout@master
 
       - name: "Install locked dependencies with composer"
-        run: php7.3 /usr/bin/composer install
+        run: php7.3 /usr/bin/composer install --no-interaction --no-progress --no-suggest
 
       - name: "Run mutation tests with infection/infection"
         run: php7.3 vendor/bin/infection --ignore-msi-with-no-mutations --min-covered-msi=100 --min-msi=100
