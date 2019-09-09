@@ -1,9 +1,9 @@
 # php-library-template
 
-[![CI Status](https://github.com/localheinz/php-library-template/workflows/Continuous%20Integration/badge.svg)](https://github.com/localheinz/php-library-template/actions)
-[![codecov](https://codecov.io/gh/localheinz/php-library-template/branch/master/graph/badge.svg)](https://codecov.io/gh/localheinz/php-library-template)
-[![Latest Stable Version](https://poser.pugx.org/localheinz/php-library-template/v/stable)](https://packagist.org/packages/localheinz/php-library-template)
-[![Total Downloads](https://poser.pugx.org/localheinz/php-library-template/downloads)](https://packagist.org/packages/localheinz/php-library-template)
+[![CI Status](https://github.com/spawnia/php-library-template/workflows/Continuous%20Integration/badge.svg)](https://github.com/spawnia/php-library-template/actions)
+[![codecov](https://codecov.io/gh/spawnia/php-library-template/branch/master/graph/badge.svg)](https://codecov.io/gh/spawnia/php-library-template)
+[![Latest Stable Version](https://poser.pugx.org/spawnia/php-library-template/v/stable)](https://packagist.org/packages/spawnia/php-library-template)
+[![Total Downloads](https://poser.pugx.org/spawnia/php-library-template/downloads)](https://packagist.org/packages/spawnia/php-library-template)
 
 A template for starting a PHP library
 
@@ -14,7 +14,7 @@ A template for starting a PHP library
 Install through composer
 
 ```bash
-composer require localheinz/php-library-template
+composer require spawnia/php-library-template
 ```
 
 ## Usage
