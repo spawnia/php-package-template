@@ -3,4 +3,3 @@ risky: true
 enabled:
   - declare_strict_types
   - unalign_double_arrow
-  - unalign_equals
