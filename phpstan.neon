@@ -9,5 +9,5 @@ parameters:
 	inferPrivatePropertyTypeFromConstructor: true
 	paths:
 		- src
-		- test
+		- tests
 	tmpDir: %currentWorkingDirectory%/.build/phpstan

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Spawnia\Library\Test\Unit;
+namespace Spawnia\Library\Tests\Unit;
 
 use PHPUnit\Framework;
 use Spawnia\Library\Example;

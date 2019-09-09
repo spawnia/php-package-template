@@ -36,7 +36,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Spawnia\\Library\\Test\\": "test/"
+      "Spawnia\\Library\\Tests\\": "tests/"
     }
   },
   "support": {
