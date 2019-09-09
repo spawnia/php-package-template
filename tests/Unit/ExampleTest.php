@@ -7,7 +7,7 @@ namespace Spawnia\Library\Test\Unit;
 use PHPUnit\Framework;
 use Spawnia\Library\Example;
 
-final class ExampleTest extends Framework\TestCase
+class ExampleTest extends Framework\TestCase
 {
     public function testGreetIncludesName(): void
     {
