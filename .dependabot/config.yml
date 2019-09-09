@@ -4,9 +4,9 @@ version: 1
 
 update_configs:
   - default_assignees:
-      - "localheinz"
+      - "spawnia"
     default_reviewers:
-      - "localheinz"
+      - "spawnia"
     directory: "/"
     package_manager: "php:composer"
     update_schedule: "live"

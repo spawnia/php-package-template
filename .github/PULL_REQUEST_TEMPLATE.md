@@ -1,9 +1,13 @@
-This PR
+- [ ] Added automated tests
+- [ ] Documented for all relevant versions
+- [ ] Updated the changelog
 
-* [x] 
-* [ ] 
-* [ ] 
+<!-- Link to related issues this PR resolves, e.g. "Resolves #236"-->
 
-Follows #.
-Related to #.
-Fixes #.
+**Changes**
+
+<!-- Detail the changes in behaviour this PR introduces. -->
+
+**Breaking changes**
+
+<!-- If there are any breaking changes, list them here. -->

@@ -2,33 +2,19 @@
 
 declare(strict_types=1);
 
-/**
- * Copyright (c) 2019 Andreas Möller
- *
- * For the full copyright and license information, please view
- * the LICENSE file that was distributed with this source code.
- *
- * @see https://github.com/localheinz/php-library-template
- */
+namespace Spawnia\Library;
 
-namespace Localheinz\Library;
-
-final class Example
+class Example
 {
-    private $name;
+    protected $name;
 
-    private function __construct(string $name)
+    public function __construct(string $name)
     {
         $this->name = $name;
     }
 
-    public static function fromName(string $name): self
+    public function greet(): string
     {
-        return new self($name);
-    }
-
-    public function name(): string
-    {
-        return $this->name;
+        return "Hello $this->name";
     }
 }

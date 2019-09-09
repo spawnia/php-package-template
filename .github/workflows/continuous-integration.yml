@@ -75,9 +75,6 @@ jobs:
         if: matrix.dependencies == 'highest'
         run: ${{ matrix.php-binary }} /usr/bin/composer update
 
-      - name: "Run auto-review tests with phpunit/phpunit"
-        run: ${{ matrix.php-binary }} vendor/bin/phpunit --configuration=test/AutoReview/phpunit.xml
-
       - name: "Run unit tests with phpunit/phpunit"
         run: ${{ matrix.php-binary }} vendor/bin/phpunit --configuration=test/Unit/phpunit.xml
 

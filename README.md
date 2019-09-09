@@ -5,14 +5,16 @@
 [![Latest Stable Version](https://poser.pugx.org/localheinz/php-library-template/v/stable)](https://packagist.org/packages/localheinz/php-library-template)
 [![Total Downloads](https://poser.pugx.org/localheinz/php-library-template/downloads)](https://packagist.org/packages/localheinz/php-library-template)
 
+A template for starting a PHP library
+
 ## Installation
 
 :bulb: This is a great place for showing how to install the package, see below:
 
-Run
+Install through composer
 
-```
-$ composer require localheinz/php-library-template
+```bash
+composer require localheinz/php-library-template
 ```
 
 ## Usage
@@ -26,10 +28,6 @@ Please have a look at [`CHANGELOG.md`](CHANGELOG.md).
 ## Contributing
 
 Please have a look at [`CONTRIBUTING.md`](.github/CONTRIBUTING.md).
-
-## Code of Conduct
-
-Please have a look at [`CODE_OF_CONDUCT.md`](.github/CODE_OF_CONDUCT.md).
 
 ## License
 
