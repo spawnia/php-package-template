@@ -4,17 +4,9 @@ We are using [GitHub Actions](https://github.com/features/actions) as a continuo
 
 For details, see [`workflows/continuous-integration.yml`](workflows/continuous-integration.yml).
 
-## Coding Standards
+## Code Style
 
-We are using [`friendsofphp/php-cs-fixer`](https://github.com/FriendsOfPHP/PHP-CS-Fixer) to enforce coding standards.
-
-Run
-
-```
-$ make cs
-```
-
-to automatically fix coding standard violations.
+The code style is automatically fixed through [StyleCI](https://styleci.io/).
 
 ## Static Code Analysis
 
@@ -22,8 +14,8 @@ We are using [`phpstan/phpstan`](https://github.com/phpstan/phpstan) to statical
 
 Run
 
-```
-$ make stan
+```bash
+make stan
 ```
 
 to run a static code analysis.
@@ -34,8 +26,8 @@ We are using [`phpunit/phpunit`](https://github.com/sebastianbergmann/phpunit) t
 
 Run
 
-```
-$ make test
+```bash
+make test
 ```
 
 to run all the tests.
@@ -46,8 +38,8 @@ We are using [`infection/infection`](https://github.com/infection/infection) to 
 
 Enable `Xdebug` and run
 
-```
-$ make infection
+```bash
+make infection
 ```
 
 to run mutation tests.
@@ -56,16 +48,16 @@ to run mutation tests.
 
 Run
 
-```
-$ make
+```bash
+make
 ```
 
 to enforce coding standards, perform a static code analysis, and run tests!
 
 :bulb: Run
 
-```
-$ make help
+```bash
+make help
 ```
 
 to display a list of available targets with corresponding descriptions.

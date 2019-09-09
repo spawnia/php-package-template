@@ -9,8 +9,6 @@ A template for starting a PHP library
 
 ## Installation
 
-:bulb: This is a great place for showing how to install the package, see below:
-
 Install through composer
 
 ```bash
