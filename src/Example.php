@@ -6,6 +6,9 @@ namespace Spawnia\Library;
 
 class Example
 {
+    /**
+     * @var string $name
+     */
     protected $name;
 
     public function __construct(string $name)
