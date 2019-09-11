@@ -7,6 +7,30 @@
 
 A template for starting a PHP library
 
+# Remove this section after cloning
+
+Search & Replace with your title:
+
+```
+A template for starting a PHP library`
+```
+
+Search & Replace with your package name:
+
+```
+php-library-template
+PhpLibraryTemplate
+```
+
+Search & Replace with your username/vendor (match case):
+
+```
+spawnia
+Spawnia
+```
+
+# Remove this section after cloning
+
 ## Installation
 
 Install through composer
