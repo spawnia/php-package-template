@@ -33,12 +33,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Spawnia\\Library\\": "src/"
+      "Spawnia\\PhpLibraryTemplate\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Spawnia\\Library\\Tests\\": "tests/"
+      "Spawnia\\PhpLibraryTemplate\\Tests\\": "tests/"
     }
   },
   "support": {

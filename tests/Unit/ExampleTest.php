@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Spawnia\Library\Tests\Unit;
+namespace Spawnia\PhpLibraryTemplate\Tests\Unit;
 
 use PHPUnit\Framework;
-use Spawnia\Library\Example;
+use Spawnia\PhpLibraryTemplate\Example;
 
 class ExampleTest extends Framework\TestCase
 {
