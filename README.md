@@ -2,6 +2,7 @@
 
 [![CI Status](https://github.com/spawnia/php-library-template/workflows/Continuous%20Integration/badge.svg)](https://github.com/spawnia/php-library-template/actions)
 [![codecov](https://codecov.io/gh/spawnia/php-library-template/branch/master/graph/badge.svg)](https://codecov.io/gh/spawnia/php-library-template)
+[![StyleCI](https://github.styleci.io/repos/207373158/shield?branch=master)](https://github.styleci.io/repos/207373158)
 [![Latest Stable Version](https://poser.pugx.org/spawnia/php-library-template/v/stable)](https://packagist.org/packages/spawnia/php-library-template)
 [![Total Downloads](https://poser.pugx.org/spawnia/php-library-template/downloads)](https://packagist.org/packages/spawnia/php-library-template)
 
