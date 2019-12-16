@@ -13,7 +13,7 @@ A template for starting a PHP library
 Search & Replace with your title:
 
 ```
-A template for starting a PHP library`
+A template for starting a PHP library
 ```
 
 Search & Replace with your package name:
