@@ -30,6 +30,8 @@ spawnia
 Spawnia
 ```
 
+Thanks to @localheinz for providing the inspiration for this template: https://github.com/ergebnis/php-library-template
+
 # Remove this section after cloning
 
 ## Installation
