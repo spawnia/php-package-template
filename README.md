@@ -30,6 +30,12 @@ spawnia
 Spawnia
 ```
 
+Set up StyleCI at https://github.styleci.io/ and replace the link in the badge.
+
+Link the package at https://packagist.org/
+
+Enable code coverage at https://codecov.io/
+
 Thanks to @localheinz for providing the inspiration for this template: https://github.com/ergebnis/php-library-template
 
 # Remove this section after cloning
