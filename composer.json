@@ -15,9 +15,9 @@
     "thecodingmachine/safe": "^1.1.2"
   },
   "require-dev": {
+    "ergebnis/composer-normalize": "^2.5.1",
     "infection/infection": "~0.13.6",
     "jangregor/phpstan-prophecy": "~0.8.0",
-    "ergebnis/composer-normalize": "^2.5.1",
     "phpstan/extension-installer": "^1.0",
     "phpstan/phpstan": "~0.12.31",
     "phpstan/phpstan-deprecation-rules": "~0.12.4",
