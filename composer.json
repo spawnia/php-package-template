@@ -27,6 +27,9 @@
     "thecodingmachine/phpstan-safe-rule": "^1.0.0"
   },
   "config": {
+    "platform": {
+      "php": "7.2.25"
+    },
     "preferred-install": "dist",
     "sort-packages": true
   },
