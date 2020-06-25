@@ -18,6 +18,6 @@ class Example
 
     public function greet(): string
     {
-        return "Hello $this->name";
+        return "Hello {$this->name}";
     }
 }
