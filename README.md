@@ -55,11 +55,11 @@ composer require spawnia/php-library-template
 
 ## Changelog
 
-Please have a look at [`CHANGELOG.md`](CHANGELOG.md).
+See [`CHANGELOG.md`](CHANGELOG.md).
 
 ## Contributing
 
-Please have a look at [`CONTRIBUTING.md`](.github/CONTRIBUTING.md).
+See [`CONTRIBUTING.md`](.github/CONTRIBUTING.md).
 
 ## License
 
