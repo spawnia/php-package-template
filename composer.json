@@ -11,24 +11,25 @@
     }
   ],
   "require": {
-    "php": "^7.2",
-    "thecodingmachine/safe": "^1.1.2"
+    "php": "^7.4 || ^8",
+    "thecodingmachine/safe": "^1"
   },
   "require-dev": {
-    "ergebnis/composer-normalize": "^2.5.1",
-    "infection/infection": "~0.13.6",
-    "jangregor/phpstan-prophecy": "~0.8.0",
-    "phpstan/extension-installer": "^1.0",
-    "phpstan/phpstan": "~0.12.31",
-    "phpstan/phpstan-deprecation-rules": "~0.12.4",
-    "phpstan/phpstan-strict-rules": "~0.12.2",
-    "phpunit/phpunit": "^8.3.4",
-    "symfony/var-dumper": "^5.1.2",
-    "thecodingmachine/phpstan-safe-rule": "^1.0.0"
+    "ergebnis/composer-normalize": "^2",
+    "infection/infection": "~0.25",
+    "jangregor/phpstan-prophecy": "~0.8",
+    "phpstan/extension-installer": "^1",
+    "phpstan/phpstan": "~0.12",
+    "phpstan/phpstan-deprecation-rules": "~0.12",
+    "phpstan/phpstan-phpunit": "~0.12",
+    "phpstan/phpstan-strict-rules": "~0.12",
+    "phpunit/phpunit": "^9",
+    "symfony/var-dumper": "^5",
+    "thecodingmachine/phpstan-safe-rule": "^1"
   },
   "config": {
     "platform": {
-      "php": "7.2.25"
+      "php": "7.4.24"
     },
     "preferred-install": "dist",
     "sort-packages": true
