@@ -1,8 +1,8 @@
 {
-  "name": "spawnia/php-library-template",
+  "name": "spawnia/php-package-template",
   "type": "library",
-  "description": "A template for starting a PHP library",
-  "homepage": "https://github.com/spawnia/php-library-template",
+  "description": "GitHub repository template for a PHP package",
+  "homepage": "https://github.com/spawnia/php-package-template",
   "license": "MIT",
   "authors": [
     {
@@ -35,19 +35,19 @@
   },
   "autoload": {
     "psr-4": {
-      "Spawnia\\PhpLibraryTemplate\\": "src/"
+      "Spawnia\\PhpPackageTemplate\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Spawnia\\PhpLibraryTemplate\\Tests\\": "tests/"
+      "Spawnia\\PhpPackageTemplate\\Tests\\": "tests/"
     },
     "files": [
       "vendor/symfony/var-dumper/Resources/functions/dump.php"
     ]
   },
   "support": {
-    "issues": "https://github.com/spawnia/php-library-template/issues",
-    "source": "https://github.com/spawnia/php-library-template"
+    "issues": "https://github.com/spawnia/php-package-template/issues",
+    "source": "https://github.com/spawnia/php-package-template"
   }
 }

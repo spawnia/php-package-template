@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Spawnia\PhpLibraryTemplate;
+namespace Spawnia\PhpPackageTemplate;
 
 class Example
 {

@@ -1,27 +1,27 @@
-# php-library-template
+# php-package-template
 
-[![Continuous Integration](https://github.com/spawnia/php-library-template/workflows/Continuous%20Integration/badge.svg)](https://github.com/spawnia/php-library-template/actions)
-[![Code Coverage](https://codecov.io/gh/spawnia/php-library-template/branch/master/graph/badge.svg)](https://codecov.io/gh/spawnia/php-library-template)
+[![Continuous Integration](https://github.com/spawnia/php-package-template/workflows/Continuous%20Integration/badge.svg)](https://github.com/spawnia/php-package-template/actions)
+[![Code Coverage](https://codecov.io/gh/spawnia/php-package-template/branch/master/graph/badge.svg)](https://codecov.io/gh/spawnia/php-package-template)
 [![StyleCI](https://github.styleci.io/repos/207373158/shield?branch=master)](https://github.styleci.io/repos/207373158)
 
-[![Latest Stable Version](https://poser.pugx.org/spawnia/php-library-template/v/stable)](https://packagist.org/packages/spawnia/php-library-template)
-[![Total Downloads](https://poser.pugx.org/spawnia/php-library-template/downloads)](https://packagist.org/packages/spawnia/php-library-template)
+[![Latest Stable Version](https://poser.pugx.org/spawnia/php-package-template/v/stable)](https://packagist.org/packages/spawnia/php-package-template)
+[![Total Downloads](https://poser.pugx.org/spawnia/php-package-template/downloads)](https://packagist.org/packages/spawnia/php-package-template)
 
-A template for starting a PHP library
+GitHub repository template for a PHP package
 
 # Remove this section after cloning
 
 Search & Replace with your title:
 
 ```
-A template for starting a PHP library
+GitHub repository template for a PHP package
 ```
 
 Search & Replace with your package name:
 
 ```
-php-library-template
-PhpLibraryTemplate
+php-package-template
+PhpPackageTemplate
 ```
 
 Search & Replace with your username/vendor (match case):
@@ -31,13 +31,13 @@ spawnia
 Spawnia
 ```
 
-Set up StyleCI at https://github.styleci.io/ and replace the link in the badge.
+Set up StyleCI at https://github.styleci.io and replace the link in the badge.
 
-Link the package at https://packagist.org/
+Link the package at https://packagist.org
 
-Enable code coverage at https://codecov.io/
+Enable code coverage at https://codecov.io
 
-Thanks to @localheinz for providing the inspiration for this template: https://github.com/ergebnis/php-library-template
+Thanks to @localheinz for providing the inspiration for this template: https://github.com/ergebnis/php-package-template
 
 # Remove this section after cloning
 
@@ -46,7 +46,7 @@ Thanks to @localheinz for providing the inspiration for this template: https://g
 Install through composer
 
 ```sh
-composer require spawnia/php-library-template
+composer require spawnia/php-package-template
 ```
 
 ## Usage

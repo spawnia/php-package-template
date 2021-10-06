@@ -43,11 +43,11 @@ repository:
   allow_rebase_merge: false
   allow_squash_merge: false
   default_branch: master
-  description: "A template for starting a PHP library"
+  description: "GitHub repository template for a PHP package"
   has_downloads: true
   has_issues: true
   has_pages: false
   has_projects: false
   has_wiki: false
-  name: php-library-template
+  name: php-package-template
   private: false
