@@ -124,9 +124,7 @@ jobs:
         run: vendor/bin/phpunit --coverage-clover=.build/logs/clover.xml --prepend=.build/phpunit/xdebug-filter.php
 
       - name: "Send code coverage report to codecov.io"
-        env:
-          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-        run: bash <(curl -s https://codecov.io/bash)
+        uses: codecov/codecov-action@v2
 
   mutation-tests:
     name: "Mutation Tests"
