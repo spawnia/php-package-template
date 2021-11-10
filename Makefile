@@ -1,5 +1,9 @@
 .PHONY: it
-it: stan test ## Run the commonly used targets
+it: fix stan test ## Run the commonly used targets
+
+.PHONY: help
+help: ## Displays this list of targets with descriptions
+	@grep -E '^[a-zA-Z0-9_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[32m%-30s\033[0m %s\n", $$1, $$2}'
 
 .PHONY: coverage
 coverage: vendor ## Collects coverage from running unit tests with phpunit
@@ -7,9 +11,10 @@ coverage: vendor ## Collects coverage from running unit tests with phpunit
 	vendor/bin/phpunit --dump-xdebug-filter=.build/phpunit/xdebug-filter.php
 	vendor/bin/phpunit --coverage-text --prepend=.build/phpunit/xdebug-filter.php
 
-.PHONY: help
-help: ## Displays this list of targets with descriptions
-	@grep -E '^[a-zA-Z0-9_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[32m%-30s\033[0m %s\n", $$1, $$2}'
+.PHONY: fix
+fix: vendor
+	mkdir -p .build/php-cs-fixer
+	vendor/bin/php-cs-fixer --cache-file=.build/php-cs-fixer/cache.php
 
 .PHONY: infection
 infection: vendor ## Runs mutation tests with infection
@@ -24,7 +29,7 @@ stan: vendor ## Runs a static analysis with phpstan
 .PHONY: test
 test: vendor ## Runs auto-review, unit, and integration tests with phpunit
 	mkdir -p .build/phpunit
-	vendor/bin/phpunit
+	vendor/bin/phpunit --cache-result-file=.build/phpunit/result.cache
 
 vendor: composer.json composer.lock
 	composer validate --strict

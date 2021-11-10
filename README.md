@@ -2,7 +2,6 @@
 
 [![Continuous Integration](https://github.com/spawnia/php-package-template/workflows/Continuous%20Integration/badge.svg)](https://github.com/spawnia/php-package-template/actions)
 [![Code Coverage](https://codecov.io/gh/spawnia/php-package-template/branch/master/graph/badge.svg)](https://codecov.io/gh/spawnia/php-package-template)
-[![StyleCI](https://github.styleci.io/repos/207373158/shield?branch=master)](https://github.styleci.io/repos/207373158)
 
 [![Latest Stable Version](https://poser.pugx.org/spawnia/php-package-template/v/stable)](https://packagist.org/packages/spawnia/php-package-template)
 [![Total Downloads](https://poser.pugx.org/spawnia/php-package-template/downloads)](https://packagist.org/packages/spawnia/php-package-template)
@@ -30,8 +29,6 @@ Search & Replace with your username/vendor (match case):
 spawnia
 Spawnia
 ```
-
-Set up StyleCI at https://github.styleci.io and replace the link in the badge.
 
 Link the package at https://packagist.org
 
