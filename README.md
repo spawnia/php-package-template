@@ -48,7 +48,7 @@ composer require spawnia/php-package-template
 
 ## Usage
 
-:bulb: This is a great place for showing a few usage examples!
+See [tests](tests).
 
 ## Changelog
 
