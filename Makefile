@@ -21,7 +21,7 @@ infection: vendor ## Runs mutation tests with infection
 	vendor/bin/infection --ignore-msi-with-no-mutations --min-covered-msi=100 --min-msi=100
 
 .PHONY: stan
-stan: vendor ## Runs a static analysis with phpstan
+stan: vendor ## Runs static analysis with phpstan
 	mkdir -p .build/phpstan
 	vendor/bin/phpstan analyse --configuration=phpstan.neon
 
