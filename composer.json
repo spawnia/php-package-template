@@ -1,24 +1,28 @@
 {
   "name": "spawnia/php-package-template",
-  "type": "library",
   "description": "GitHub repository template for a PHP package",
-  "homepage": "https://github.com/spawnia/php-package-template",
   "license": "MIT",
+  "type": "library",
   "authors": [
     {
       "name": "Benedikt Franke",
       "email": "benedikt@franke.tech"
     }
   ],
+  "homepage": "https://github.com/spawnia/php-package-template",
+  "support": {
+    "issues": "https://github.com/spawnia/php-package-template/issues",
+    "source": "https://github.com/spawnia/php-package-template"
+  },
   "require": {
     "php": "^7.4 || ^8",
     "thecodingmachine/safe": "^1"
   },
   "require-dev": {
     "ergebnis/composer-normalize": "^2",
-    "infection/infection": "~0.25",
+    "infection/infection": "~0.26",
     "jangregor/phpstan-prophecy": "^1",
-    "mll-lab/php-cs-fixer-config": "^4.3",
+    "mll-lab/php-cs-fixer-config": "^4.4",
     "phpstan/extension-installer": "^1",
     "phpstan/phpstan": "^1",
     "phpstan/phpstan-deprecation-rules": "^1",
@@ -26,14 +30,7 @@
     "phpstan/phpstan-strict-rules": "^1",
     "phpunit/phpunit": "^9",
     "symfony/var-dumper": "^5",
-    "thecodingmachine/phpstan-safe-rule": "^1.1"
-  },
-  "config": {
-    "platform": {
-      "php": "7.4.24"
-    },
-    "preferred-install": "dist",
-    "sort-packages": true
+    "thecodingmachine/phpstan-safe-rule": "^1.2"
   },
   "autoload": {
     "psr-4": {
@@ -48,8 +45,16 @@
       "vendor/symfony/var-dumper/Resources/functions/dump.php"
     ]
   },
-  "support": {
-    "issues": "https://github.com/spawnia/php-package-template/issues",
-    "source": "https://github.com/spawnia/php-package-template"
+  "config": {
+    "allow-plugins": {
+      "infection/extension-installer": true,
+      "ergebnis/composer-normalize": true,
+      "phpstan/extension-installer": true
+    },
+    "platform": {
+      "php": "7.4.24"
+    },
+    "preferred-install": "dist",
+    "sort-packages": true
   }
 }
